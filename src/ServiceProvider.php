@@ -20,10 +20,10 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         $this->app->singleton(Express::class, function () {
-            return new Express(config('services.weather.key'));
+            return new Express(config('services.express.key'));
         });
 
-        $this->app->alias(Express::class, 'weather');
+        $this->app->alias(Express::class, 'express');
     }
 
     /**
