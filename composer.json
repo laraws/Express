@@ -1,0 +1,22 @@
+{
+    "name": "laraws/express",
+    "description": "express api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "laraws",
+            "email": "larawsw@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2",
+        "guzzlehttp/guzzle": "^6.5",
+        "phpunit/phpunit": "^9.1",
+        "mockery/mockery": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laraws\\Express\\": "src"
+        }
+    }
+}
