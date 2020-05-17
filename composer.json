@@ -18,5 +18,12 @@
         "psr-4": {
             "Laraws\\Express\\": "src"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Laraws\\Express\\ServiceProvider"
+            ]
+        }
     }
 }
